@@ -40,7 +40,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupRecyclerView(){
         post_recyclerView.adapter = postAdapter
-//      post_recyclerView.layoutManager = LinearLayoutManager(this)
         post_recyclerView.layoutManager = GridLayoutManager(this, 2)
     }
 
